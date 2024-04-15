@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', 'Arial', sans-serif; 
+    font-weight: 500; 
+    background: linear-gradient(145deg, #D32F2F, #FFEB3B); 
+    color: #333333;
+    margin: 0;
+    padding: 40px;
+    height: calc(100vh - 80px);
+}
+
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #FFF3E0;
+}
+
+button {
+    background-color: #D32F2F;
+    color: white; 
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 500; 
+}
+
+button:hover {
+    background-color: #B71C1C;
+}
+
+#playTransformed {
+    background-color: #FFEB3B; 
+    color: #5D4037; 
+}
+
+#playTransformed:hover {
+    background-color: #FDD835;
+}
+.footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #4CAF50;
+    color: purple;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+h3 {
+    display: inline;
+}
